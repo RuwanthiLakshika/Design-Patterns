@@ -1,0 +1,7 @@
+ Introduction - The Singleton pattern ensures that a class has only one instance and provides a global
+point to access it. It's often used where system-wide actions need to be coordinated from a single central
+place.
+
+ Purpose
+ ● Control object creation to ensure only one instance of a given class exists.
+ ● Provide a global point of reference to that instance

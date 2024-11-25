@@ -1,0 +1,23 @@
+problem related to developer.OS and Phones
+
+when you want to build a phone, according to the phone there are different types of developer.OS.
+ex- Apple phone - developer.iOS/ Samsung - developer.Android
+there are some people know about the developer.OS, some are not concern about the developer.OS
+
+Problem
+You want to build a phone, and based on the phone type, it should have a specific developer.OS.
+
+Apple → developer.iOS (Closed)
+Samsung → developer.Android (Open)
+Others → developer.Windows (Other)
+Some users care about the developer.OS, while others don't.
+
+Solution Using Factory Pattern
+Define an abstract developer.OS interface: Represents the common behavior of all developer.OS types.
+Create concrete classes: For developer.Android, developer.iOS, and developer.Windows implementing the developer.OS interface.
+Implement a Factory class: Decides which developer.OS to create based on the phone type.
+
+Benefits
+Encapsulation: The Factory hides the creation logic.
+Flexibility: Easily extendable to support more developer.OS types.
+Reduced Coupling: The client code doesn't depend on concrete implementations.
