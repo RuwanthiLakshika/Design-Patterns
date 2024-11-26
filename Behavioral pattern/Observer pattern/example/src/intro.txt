@@ -1,0 +1,6 @@
+you are having a Youtube object, inside that have channels, and then have subscribers
+one channel have multiple subscribers(one-to-many)
+every time when upload a vedio, observers need to get notification
+channel - subject
+subscriber - observer
+

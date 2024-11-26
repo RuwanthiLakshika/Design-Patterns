@@ -1,0 +1,22 @@
+Observer Pattern
+ Introduction:
+ The Observer Pattern defines a one-to-many dependency between objects, so when one object (the
+subject) changes its state, all its dependents (observers) are notified and updated automatically.
+
+ Purpose:
+ Establish a mechanism for objects to broadcast changes, enabling other objects to react in response to
+those changes.
+
+Key Features:
+ Broadcast Mechanism:
+ ● Subjects broadcast updates, and observers register to receive notifications of these updates.
+ Loose Coupling:
+ ● The subject and its observers are loosely coupled. They remain independent, and
+modifications can be made to either without affecting the other.
+ Dynamic Relationships:
+ ● Observers can be added or removed at runtime, offering flexibility in how notifications are
+handled.
+
+Ex - a weather monitoring application where WeatherStation (the subject) provides regular updates,
+     and various display elements (CurrentDisplay, StatisticsDisplay, etc.) act as observers to display these
+     updates.
