@@ -1,0 +1,21 @@
+In school we have many assignment. To write your assignment you need a pen
+So you need the implementation of pen
+but i have a implementation of Pilotpen but not the pen
+can we use pilotpen in the place of pen?
+directly we can't do that, we need a Adapter
+
+
+Steps to Implement the Adapter Pattern:
+
+Define the Target Interface (Pen):
+This is the interface that the client expects.
+
+Use the Adaptee (PilotPen):
+This is the existing implementation that doesn't match the target interface.
+
+Create the Adapter Class:
+The adapter bridges the gap between Pen and PilotPen.
+
+Client Code:
+The client uses the Pen interface, unaware of the PilotPen behind the scenes.
+

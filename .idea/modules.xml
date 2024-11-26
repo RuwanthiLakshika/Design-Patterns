@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/structural pattern/Adapter pattern/Adapter pattern.iml" filepath="$PROJECT_DIR$/structural pattern/Adapter pattern/Adapter pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design-Patterns.iml" filepath="$PROJECT_DIR$/.idea/Design-Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural pattern/Adapter pattern/Example01/Example01.iml" filepath="$PROJECT_DIR$/structural pattern/Adapter pattern/Example01/Example01.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational pattern/Factory Method Pattern/Example1/Example1.iml" filepath="$PROJECT_DIR$/creational pattern/Factory Method Pattern/Example1/Example1.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational pattern/Factory Method Pattern/Factory Method Pattern.iml" filepath="$PROJECT_DIR$/creational pattern/Factory Method Pattern/Factory Method Pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational pattern/creational pattern.iml" filepath="$PROJECT_DIR$/creational pattern/creational pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/creational pattern/singleton design pattern/singleton design pattern.iml" filepath="$PROJECT_DIR$/creational pattern/singleton design pattern/singleton design pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/structural pattern/structural pattern.iml" filepath="$PROJECT_DIR$/structural pattern/structural pattern.iml" />
     </modules>
   </component>
 </project>

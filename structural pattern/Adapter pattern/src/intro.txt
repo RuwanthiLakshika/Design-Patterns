@@ -1,0 +1,22 @@
+ Introduction:
+ The Adapter Pattern acts as a bridge between two incompatible interfaces. By transforming one
+interface into another, it promotes interoperability and reuse.
+
+ Purpose:
+ Convert the interface of a class into another interface that clients expect. The Adapter allows classes to
+work together that otherwise couldn’t due to incompatible interfaces
+
+Key Features:
+ Interface Transformation:
+ ● The main role of the Adapter is to provide a link between two previously incompatible
+interfaces.
+ Increased Compatibility:
+ ● It enables integration of systems and classes that otherwise wouldn't work together.
+ Reusability:
+ ● Existing code with non-compatible interfaces can be reused without modification.
+
+EX- we have an old system that provides data in XML format, and a new system that
+    expects data in JSON format
+
+    We will use the Adapter Pattern to make these two systems compatible without
+    modifying their existing implementations
